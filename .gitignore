@@ -7,6 +7,9 @@ __pycache__/
 .venv/
 venv/
 
+# Python packaging
+*.egg-info/
+
 # dbt
 dbt_packages/
 target/
@@ -19,3 +22,4 @@ logs/
 # Operating System
 .DS_Store
 Thumbs.db
+

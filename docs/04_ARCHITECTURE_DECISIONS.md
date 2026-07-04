@@ -34,11 +34,11 @@ Accepted
 
 ### Reason
 
-Reproducible environment.
+Provides reproducible environments.
 
-Easy onboarding.
+Supports Infrastructure as Code.
 
-Industry standard.
+Matches modern Data Engineering practices.
 
 ---
 
@@ -58,7 +58,7 @@ Open-source.
 
 Widely supported by dbt.
 
-Excellent learning platform.
+Excellent platform for learning modern Analytics Engineering.
 
 ---
 
@@ -66,7 +66,7 @@ Excellent learning platform.
 
 ### Decision
 
-Power BI will be used instead of Metabase.
+Power BI will be used as the visualization layer instead of Metabase.
 
 ### Status
 
@@ -74,7 +74,7 @@ Accepted
 
 ### Reason
 
-Aligns with Marek's professional experience.
+Aligns with existing professional experience.
 
 Allows focusing on Analytics Engineering rather than learning another BI tool.
 
@@ -92,4 +92,30 @@ Accepted
 
 ### Reason
 
-The purpose of the project is education rather than rapid delivery.
+The primary objective of the project is education.
+
+Architectural understanding is more valuable than rapid implementation.
+
+---
+
+## ADR-006
+
+### Decision
+
+dbt Core will be used as the transformation framework.
+
+### Status
+
+Accepted
+
+### Reason
+
+SQL-first approach.
+
+Industry standard for Analytics Engineering.
+
+Version-controlled transformations.
+
+Excellent integration with PostgreSQL.
+
+Supports modular, testable and documented data models.
